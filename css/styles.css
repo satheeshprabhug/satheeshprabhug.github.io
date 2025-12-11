@@ -1768,6 +1768,17 @@ body:has(.block-navigation-sidebar)>[data-cart-open] [data-cart-count] {
     padding-top: 100%
 }
 
+.swiper-slide .article__inner__img {
+    background-size: contain !important;   /* Show full image */
+    background-position: center !important; /* Center the image */
+    background-repeat: no-repeat !important;
+}
+
+.swiper-slide .crop-ratio--square.crop {
+    background-size: contain !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;    
+}
 .swiper-slide .slideshow-img.crop-ratio--5_4 {
     padding-top: 80%
 }
